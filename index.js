@@ -7,7 +7,7 @@ const app = express();// cria o nosso objeto app, que vai poder utilizar tudo o 
 
 app.use(express.json());// Converte requisições e repostas para JSON (JavaScript Object Notation)
 
-const port = 3000;
+const port = 3000;  
 
 // Função responsável por filtrar apenas os jogos que possuem valores válidos, ou seja, não são null.
 const getJogosValidos = () => jogoSchema.filter(Boolean);
