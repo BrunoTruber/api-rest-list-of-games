@@ -1,1 +1,1 @@
-# API-Rest de lista de jogos
+# API-Rest lista de jogos
